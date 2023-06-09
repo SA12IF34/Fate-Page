@@ -4,8 +4,8 @@ function Seasons() {
   return (
     <div className='w-full h-max gradient-custom px-24 tablet:!px-10'>
         <h1 className='max-w-500 text-2xl relative top-8 mb-24'>
-            Fate series has several routes and side story, but 
-            here we will show the main story watch order
+            Fate series has several routes and side stories, but 
+            here we will show the main route story watch order
         </h1>
         <br />
         <div className='w-full h-auto flex flex-col items-center mt-10 mb-10'>
