@@ -8,10 +8,26 @@ function Header() {
             <img src={fate} alt="fate logo" className='w-24 min-w-24 h-auto' />
         </button>
         <ul className='w-auto h-auto tablet:text-sm list-none capitalize flex flex-wrap justify-evenly'>
-            <li className='mx-2.5 my-1 break-keep cursor-pointer'>seasons & watch order</li>
-            <li className='mx-2.5 my-1 break-keep cursor-pointer'>characters</li>
-            <li className='mx-2.5 my-1 break-keep cursor-pointer'>definition</li>
-            <li className='mx-2.5 my-1 break-keep cursor-pointer'>similar animes</li>
+            <li className='mx-2.5 my-1 break-keep cursor-pointer'>
+              <a href="#definition">
+              definition
+              </a>
+            </li>
+            <li className='mx-2.5 my-1 break-keep cursor-pointer'>
+              <a href="#seasons">
+              seasons & watch order
+              </a>
+            </li>
+            <li className='mx-2.5 my-1 break-keep cursor-pointer'>
+              <a href="#characters">
+              characters
+              </a>
+            </li>
+            <li className='mx-2.5 my-1 break-keep cursor-pointer'>
+              <a href="#similar">
+              similar animes
+              </a>
+            </li>
         </ul>
     </header>
   )

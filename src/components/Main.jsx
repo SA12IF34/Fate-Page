@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className='w-screen h-full absolute top-0 inset-1/2 translate-x-center flex items-center tablet-m:!px-24 tablet:!px-10'>
+    <div id='definition' className='w-screen h-full absolute top-0 inset-1/2 translate-x-center flex items-center tablet-m:!px-24 tablet:!px-10'>
         <div>
             <h1 className=' text-4xl tablet:text-3xl  max-w-96 font-bold'>
                 welcome to unofficial fate series page

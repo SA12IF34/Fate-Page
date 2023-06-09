@@ -2,7 +2,7 @@ import React from 'react'
 
 function Seasons() {
   return (
-    <div className='w-full h-max gradient-custom px-24 tablet:!px-10'>
+    <div id='seasons' className='w-full h-max gradient-custom px-24 tablet:!px-10'>
         <h1 className='max-w-500 text-2xl relative top-8'>
             Fate series has several routes and side stories, but 
             here we will show the main route watch order

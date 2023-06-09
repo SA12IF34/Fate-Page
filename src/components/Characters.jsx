@@ -2,7 +2,7 @@ import React from 'react';
 
 function Characters() {
   return (
-    <div className='w-full h-auto bg-gradient py-28 px-24 tablet:px-16'>
+    <div id='characters' className='w-full h-auto bg-gradient py-28 px-24 tablet:px-16'>
         <h1 className='text-3xl capitalize'>
           Characters & philosophy
         </h1>

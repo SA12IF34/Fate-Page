@@ -8,7 +8,7 @@ import fullmetal from '../assets/fullmetal.jpg';
 
 function Similar() {
   return (
-    <div className='w-full h-auto bg-gradient-2 tablet-m:px-24 tablet:px-10 pt-12 pb-32'>
+    <div id='similar' className='w-full h-auto bg-gradient-2 tablet-m:px-24 tablet:px-10 pt-12 pb-32'>
         <h2 className='text-3xl'>
             Similar anime recommendations
         </h2>
