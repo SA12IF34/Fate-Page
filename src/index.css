@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@layer base {
+    html {
+      font-family:  'Open Sans', sans-serif;
+    }
+}
+
+.min-w-24 {
+    min-width: 6rem;
+}
+
+.w-custom {
+    min-width: 1024px !important;
+    transform: translateX(-50%);
+}
+.h-custom {
+    height: 1024px;
+}
+
+.grid-rows-4-custom {
+    grid-template-rows: repeat(4, 256px);
+}
+
+.-translate-x-full-2 {
+    transform: translateX(-200%);
+}
+
+
+.gradient-custom {
+    background: linear-gradient(to bottom, #030d29 2%, #112345 30%, #911c1c 80%, #5e0a6f);
+}
+
+.outline-10 {
+    outline-width: 10px;
+}
+
+.translate-x-center {
+   transform: translateX(-50%); 
+}
+
+.max-w-500 {
+    max-width: 500px;
+}
+.max-w-96 {
+    max-width: 24rem;
+}
+
+@media (max-width:680px) {
+    .tablet\:w-custom {
+        width: 1024px !important;
+    }
+
+    .tablet\:-translate-x-full-2-1\/2 {
+        transform: translateX(-150%);
+    }
+
+}
+
