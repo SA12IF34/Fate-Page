@@ -32,7 +32,7 @@
 
 
 .gradient-custom {
-    background: linear-gradient(to bottom, #030d29 2%, #112345 30%, #911c1c 80%, #5e0a6f);
+    background: linear-gradient(to bottom, #030d29 2%, #112345 30%, #911c1c 75%, #5e0a6f);
 }
 
 .outline-10 {
@@ -48,6 +48,18 @@
 }
 .max-w-96 {
     max-width: 24rem;
+}
+
+.bg-gradient {
+    background: linear-gradient(to bottom, #030d29 3%, #112345);
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(to bottom, #290305 1%, #911c1c 45%, #5e0a6f);
+}
+
+.minus-left {
+    left: -2px;
 }
 
 @media (max-width:680px) {
