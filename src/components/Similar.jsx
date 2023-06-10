@@ -30,7 +30,7 @@ function Similar() {
                 <li className='w-36 h-48 border-2 border-solid border-white m-4 mb-8 relative'>
                     <img src={vinlandSaga} alt="vinland saga recommendation" className='absolute w-full h-full' />
                     <span className='absolute top-full minus-left w-36 h-max p-1 text-center bg-white text-black text-sm'>
-                        Vinland Saga
+                        Vinland Saga S2
                     </span>
                 </li>
                 <li className='w-36 h-48 border-2 border-solid border-white m-4 mb-8 relative'>
