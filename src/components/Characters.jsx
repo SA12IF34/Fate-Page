@@ -8,7 +8,7 @@ function Characters() {
         </h1>
         <br />
         <p className=' max-w-2xl text-lg ml-3'>
-          Fate has a lot of varios characters from regular to great ones, 
+          Fate has a lot of various characters from regular to great ones, 
           It also discusses issues such as 'What it means to be a king' or 
           Is it good to follow a concept of 'Ally of Justice', and more.
         </p>
