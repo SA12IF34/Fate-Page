@@ -5,8 +5,6 @@ import ubw from '../assets/seasons/ubw.jpg';
 import ubw2 from '../assets/seasons/ubw2.jpg';
 import hf from '../assets/seasons/hf.jpg';
 
-// hello
-
 function Seasons() {
 
     var num = 0;
