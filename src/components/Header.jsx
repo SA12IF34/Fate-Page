@@ -1,9 +1,29 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import fate from '../assets/fate.jpg';
 
 function Header() {
+
+  let num = 0;
+  useEffect(() => {
+    if (num < 1) {
+      let header = document.querySelector("header");
+      let height = 0;
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > height) {
+          header.style.cssText = 'transform: translateY(-100%);';
+        } else if (window.scrollY < height) {
+          header.style.cssText = 'transform: translateY(0%);';
+        }
+        height = window.scrollY;
+          
+      });
+
+      num=1;
+    }
+  }, [])
+
   return (
-    <header className='w-full h-24 backdrop-blur-sm flex justify-between items-center p-2 z-10 !absolute'>
+    <header className='w-full h-24 backdrop-blur-sm flex justify-between items-center p-2 z-50 fixed transition-200'>
         <button>
             <img src={fate} alt="fate logo" className='w-24 min-w-24 h-auto' />
         </button>
