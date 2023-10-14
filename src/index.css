@@ -7,6 +7,7 @@
 @layer base {
     html {
       font-family:  'Open Sans', sans-serif;
+      scroll-behavior: smooth;
     }
 }
 
@@ -93,6 +94,11 @@
     left: 50%;
     transform: translate(-50% -50%);
 }
+
+.transition-300 {
+    transition: 0.2s
+}
+
 @media (max-width:680px) {
     .tablet\:w-custom {
         width: 1024px !important;
