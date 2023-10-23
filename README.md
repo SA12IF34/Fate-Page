@@ -1,5 +1,5 @@
 # Fate Page
-## A web page about the Fate anime series, built with ReactJS and styled using TailwindCSS.
+#### A web page about the Fate anime series, built with ReactJS and styled using TailwindCSS.
 
 ## How the project works
 The project is based on the Vite/React project, with the additional TailwindCSS framework.
