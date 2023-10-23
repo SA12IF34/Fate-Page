@@ -11,6 +11,10 @@
     }
 }
 
+.transition-200 {
+    transition: 200ms;
+}
+
 .min-w-24 {
     min-width: 6rem;
 }

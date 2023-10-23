@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import fate from '../assets/fate.jpg';
 
 function Header() {
+
   let num = 0;
   useEffect(() => {
     if (num < 1) {
@@ -22,7 +23,9 @@ function Header() {
   }, [])
 
   return (
-    <header className='w-full h-24 backdrop-blur-sm flex justify-between items-center p-2 transition-300 fixed z-50'>
+
+    <header className='w-full h-24 backdrop-blur-sm flex justify-between items-center p-2 z-50 fixed transition-200'>
+
         <button>
             <img src={fate} alt="fate logo" className='w-24 min-w-24 h-auto' />
         </button>
