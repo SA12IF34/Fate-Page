@@ -1,14 +1,15 @@
 # Fate Page
-#### A web page about fate anime series, which is built with reactJS and styled using tailwindCSS.
-<br>
-## How the project works
-#### The projec is based on vite/react project, with the additional tailwindCSS framework.
-<hr>
-## How to test it
-#### The project as no written tests.
-<br>
-### The project showcases my skills and capabilites using tailwindCSS, and that's the purpose of the project.
+## A web page about the Fate anime series, built with ReactJS and styled using TailwindCSS.
 
-### The project shows the usage of tailwindCSS in several positions and complex designs, as well as the using of custom classes.
-<hr>
-* [The link to the project][https://fate-series.saifchan.online/]
+## How the project works
+The project is based on the Vite/React project, with the additional TailwindCSS framework.
+
+## How to test it
+The project does not have written tests.
+
+## Purpose of the project
+This project showcases my skills and capabilities using TailwindCSS, and that's the primary purpose of the project. It demonstrates the usage of TailwindCSS in various positions and complex designs, as well as the use of custom classes.
+
+## Project Link
+- [The link to the project](https://fate-series.saifchan.online/)
+
