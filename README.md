@@ -18,5 +18,5 @@ This project showcases my skills and capabilities using TailwindCSS, and that's 
 
 ***
 
-- [The link to the project](https://fate-series.saifchan.online/)
+- [The link to the project](https://fate-series.saifchan.site/)
 
